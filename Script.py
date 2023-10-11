@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np  # Import NumPy for array operations
 
 # Load the data from an Excel file
-DataForNN = pd.read_excel('C:/Users/Shahab Kabiri/PycharmProjects/HomeworkAI/Projects/Forex Vensim And Much More/DataForNN.xlsx')
+DataForNN = pd.read_excel('DataForNN.xlsx')
 
 # Define a function for MLP Regressor Winrate Calculation
 def MLPRegressorWinrateCalculation(DataForNN):
